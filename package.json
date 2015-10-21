@@ -1,0 +1,17 @@
+{
+  "name": "bug-with-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testem",
+    "start": "node start.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "testem": "^0.9.8"
+  }
+}
