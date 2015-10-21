@@ -1,12 +1,12 @@
 # bug-with-path
 Its a suplementary repo for showing a bug. I asked my question on [stack-overflow](http://stackoverflow.com/questions/33263714/cant-resolve-absolute-path-in-mocha-testem-tests) to get the reasons.
 
-# install
+## install
 ```
 npm install
 ```
 
-# Run to see bug
+## Run to see bug
 If you run 
 ```
 npm start
@@ -31,3 +31,8 @@ est/somepath/somefile'
 ```
 
 That means, that the function returns only relative part of the path. That is a bug, because it still should return `/home/chilicoder/repos/bug-with-path/test/somepath/somefile`
+
+### Run with mocha without testem
+```
+npm run only-mocha
+```
