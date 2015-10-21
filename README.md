@@ -30,4 +30,4 @@ AssertionError: 'test/somepath/somefile' == '/home/chilicoder/repos/bug-with-pat
 est/somepath/somefile'
 ```
 
-That means, that the function returns only relative part of the path. 
+That means, that the function returns only relative part of the path. That is a bug, because it still should return `/home/chilicoder/repos/bug-with-path/test/somepath/somefile`
