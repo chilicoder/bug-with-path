@@ -1,5 +1,5 @@
 # bug-with-path
-Its a suplementary repo for showing a bug
+Its a suplementary repo for showing a bug. I asked my question on [stack-overflow](http://stackoverflow.com/questions/33263714/cant-resolve-absolute-path-in-mocha-testem-tests) to get the reasons.
 
 # install
 ```
